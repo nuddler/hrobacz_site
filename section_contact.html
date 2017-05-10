@@ -7,12 +7,32 @@
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
         </div>
-        <div class="row">
-          <p><span class="glyphicon">&#x2709;</span>  hrobacza828@gmail.com</p>
-          <p><span class="glyphicon">&#xe182;</span>  604 628 643</p>
-          <p><span class="glyphicon">&#xe062;</span>  ul.Alojzego Koniora 122
+        <div class="row contact-icons">
+          <div class="col-md-3 col-sm-6 with-hover-text">
+            <p><img src='img/icon-mail2.png'></p>
+            <span class="hover-text font-light">hrobacza828@gmail.com</span>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p><img src='img/icon-phone.png'>  604 628 643</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p><img src='img/icon-location.png'> ul.Alojzego Koniora 122
 Międzybrodzie Bialskie</p>
-          <p><img src='img/icon-facebook.svg'></p>    
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p><img src='img/icon-facebook2.png'></p>
+          </div>
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+console.log('aaa');
+  $(document).ready(function() {
+    console.log($('.with-hover-text'));
+    $('.with-hover-text').hover(function(){
+        console.log('aaaaa');
+      }
+      );
+  });
+</script>

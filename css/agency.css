@@ -296,7 +296,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 .service-heading {
@@ -554,12 +554,12 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
-section#location {
+/*section#location {
   background-color: #222222;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
-}
+}*/
 section#location .section-heading {
   color: white;
 }
@@ -744,4 +744,43 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+/* list element */
+ul {
+
+}
+
+ul li {
+  list-style: square;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  margin-bottom: 15px;
+}
+
+
+/* own styles */
+
+p {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  margin-bottom: 15px;
+}
+p .glyphicon {
+  font-size: 27px;
+  margin-right: 20px;
+  line-height: 15px;
+  vertical-align: middle;
+}
+
+#location {
+  padding: 0;
+}
+
+.contact-icons img {
+  width: 100%;
+}
+
+.with-hover-text .hover-text {
+  display: none;
 }
