@@ -780,7 +780,16 @@ p .glyphicon {
 .contact-icons img {
   width: 100%;
 }
-
+.with-hover-text {
+  padding-top: 25px;
+  transition: all ease-in .5s;
+}
+.with-hover-text:hover {
+  padding-top: 0px;
+}
 .with-hover-text .hover-text {
   display: none;
+}
+.row.contact-icons {
+    height: 360px;
 }
