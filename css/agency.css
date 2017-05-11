@@ -747,14 +747,14 @@ body {
 }
 
 /* list element */
-ul {
-
+#about ul {
+  padding-top: 40px;
 }
 
 ul li {
   list-style: square;
-  font-size: 16px;
-  font-family: 'Open Sans';
+  font-size: 18px;
+  font-family: 'Titillium Web';
   margin-bottom: 15px;
 }
 
@@ -762,8 +762,8 @@ ul li {
 /* own styles */
 
 p {
-  font-size: 16px;
-  font-family: 'Open Sans';
+  font-size: 18px;
+  font-family: 'Titillium Web';
   margin-bottom: 15px;
 }
 p .glyphicon {
@@ -783,6 +783,9 @@ p .glyphicon {
 .with-hover-text {
   padding-top: 25px;
   transition: all ease-in .5s;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 20px;l
 }
 .with-hover-text:hover {
   padding-top: 0px;
@@ -791,5 +794,13 @@ p .glyphicon {
   display: none;
 }
 .row.contact-icons {
-    height: 360px;
+    height: 400px;
+    padding-top: 40px;
+}
+
+.line-row .hr {
+    background-color: #333333;
+    height: 5px;
+    margin: 0 auto;
+    width: 33%;
 }
