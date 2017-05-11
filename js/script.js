@@ -57,4 +57,7 @@ $(document).ready(function(e) {
 
         });
 
+    $('#galleryModal').on('show.bs.modal', function (e) {
+       $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
+    });
 });
