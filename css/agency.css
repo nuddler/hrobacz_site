@@ -286,6 +286,7 @@ section h2.section-heading {
   font-size: 100px;
   margin-top: 30px;
   margin-bottom: 15px;
+  color: #300000;
 }
 section h3 {
   font-size: 50px;
@@ -788,8 +789,9 @@ p .glyphicon {
   padding-top: 25px;
   transition: all ease-in .5s;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: 'Roboto Slab';
   font-size: 20px;
+  text-decoration: underline;
 }
 .with-hover-text:hover {
   padding-top: 0px;
