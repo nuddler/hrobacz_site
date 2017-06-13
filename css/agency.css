@@ -57,12 +57,13 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #7d1b2e;
+  background-color: #000000;
   border-color: #7d1b2e;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab';
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -732,10 +733,12 @@ ul.social-buttons li a:active {
 ::-moz-selection {
   text-shadow: none;
   background: #7d1b2e;
+  color: #FFFFFF;
 }
 ::selection {
   text-shadow: none;
   background: #7d1b2e;
+  color: #FFFFFF;
 }
 img::selection {
   background: transparent;
@@ -781,9 +784,6 @@ p .glyphicon {
   padding: 0;
 }
 
-.contact-icons img {
-  width: 100%;
-}
 .with-hover-text {
   padding-top: 25px;
   transition: all ease-in .5s;
@@ -819,4 +819,38 @@ p .glyphicon {
 .desc {
   font-size: 50px;
   text-align: center;
+}
+
+.my-icon-about {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color:  #300000;
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: auto;
+}
+
+.my-icon-contact {
+  /*padding: 50px;*/
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #300000;
+  box-sizing: border-box;
+  /*background-color: #ffffff;*/
+  width: 180px;
+  height: 180px;
+  padding: 15%;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #7d1b2e;
+}
+
+.btn.focus, .btn:focus, .btn:hover  {
+  background-color: #7d1b2e;
 }
