@@ -35,7 +35,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  /*color: #fec503;*/
 }
 h1,
 h2,
@@ -69,7 +69,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
+  /*background-color: #fec503;*/
   border-color: #f6bf01;
 }
 .btn-primary:active,
@@ -116,7 +116,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
+  /*background-color: #fec503;*/
   border-color: #f6bf01;
 }
 .btn-xl:active,
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  /*background-color: #fec503;*/
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -283,7 +283,7 @@ section {
 }
 section h2.section-heading {
   font-size: 100px;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 section h3 {
@@ -293,6 +293,7 @@ section h3 {
   font-weight: 400;
   margin-bottom: 30px;
   margin-top: 30px;
+  color: #7d1b2e;
 }
 @media (min-width: 768px) {
   section {
